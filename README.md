@@ -8,9 +8,9 @@ To prepare the script for running:
 
 1. Download the original data set from:
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-2. Extract the data into the root folder. Rename `UCI HAR Dataset` to `dataset`.
+2. Extract the data into the project root folder. Rename `UCI HAR Dataset` to `dataset`.
 3. Open `run_analysis.R` in RStudio.
-4. Modify the code to set the working directory to the root directory
+4. Modify the code to set the working directory to the project root directory
 
 ```r
 # Set working directory
