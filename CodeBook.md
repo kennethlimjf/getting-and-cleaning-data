@@ -39,4 +39,4 @@ Subset only the labels that contain `mean` or `std`, and assign to `selectCols`.
 `columnNames = c("subject", "activity", featureColNames)`, 
 `colnames(data) <- columnNames`
 
-***data2 (final data)***. Using the `dplyr` package, perform `group_by` subject and activity. This is piped into `summarise_each(funs(mean))` which will calculate a mean on each column, under the groups. The result is written to `data2.txt`.
+***tidyData (final data)***. Using the `dplyr` package, perform `group_by` subject and activity. This is piped into `summarise_each(funs(mean))` which will calculate a mean on each column, under the groups. The result is written to `tidyData.txt`.
